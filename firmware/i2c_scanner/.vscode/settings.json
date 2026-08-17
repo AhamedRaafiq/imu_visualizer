@@ -1,0 +1,25 @@
+{
+  "idf.currentSetup": "/home/raafiq/.espressif/v6.0.2/esp-idf",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "clangd.path": "/home/raafiq/.espressif/tools/esp-clang/esp-20.1.1_20250829/esp-clang/bin/clangd",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=/home/raafiq/imu_visualizer/firmware/i2c_scanner/build"
+  ],
+  "idf.flashType": "UART",
+  "idf.port": "/dev/ttyACM0",
+  "idf.monitorPort": "/dev/ttyACM0",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-bridge.cfg"
+  ],
+  "ROS2.distro": "jazzy",
+  "python.autoComplete.extraPaths": [
+    "/opt/ros/jazzy/lib/python3.12/site-packages"
+  ],
+  "python.analysis.extraPaths": [
+    "/opt/ros/jazzy/lib/python3.12/site-packages"
+  ]
+}
