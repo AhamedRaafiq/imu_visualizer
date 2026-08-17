@@ -11,6 +11,12 @@ firmware/*/dependencies.lock
 sdkconfig
 sdkconfig.old
 
+# VSCode local files (all levels)
+.vscode/
+**/.vscode/
+.clangd
+**/.clangd
+
 # Python
 __pycache__/
 *.py[cod]
@@ -20,10 +26,6 @@ __pycache__/
 dist/
 *.egg
 
-# VS Code
-.vscode/settings.json
-.vscode/c_cpp_properties.json
-
 # OS files
 .DS_Store
 Thumbs.db
@@ -32,10 +34,3 @@ Thumbs.db
 
 # Logs
 *.log
-
-# VSCode local files
-.vscode/browse.vc.db
-.vscode/browse.vc.db-shm
-.vscode/browse.vc.db-wal
-.vscode/c_cpp_properties.json
-.vscode/settings.json
