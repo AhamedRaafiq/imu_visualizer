@@ -1,6 +1,6 @@
 # IMU Visualizer — ROS2 + ESP32S3 + MPU6050
 
-## 3D Paper Plane Style IMU Visualization using ROS2 Jazzy
+## 3D F16 Fighter Jet Style IMU Visualization using ROS2 Jazzy
 
 ## Hardware
 - ESP32S3 Development Board
